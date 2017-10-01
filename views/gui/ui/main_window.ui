@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>150</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="show_author">
+        <property name="text">
+         <string>Show authors</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="show_visitors">
+        <property name="text">
+         <string>Show visitors</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="show_books">
+        <property name="text">
+         <string>Show books</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="show_history">
+        <property name="text">
+         <string>Show history</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="search_book_by_name">
+        <property name="text">
+         <string>Search</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QPushButton" name="add_visitor">
+        <property name="text">
+         <string>Add visitor</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="add_book">
+        <property name="text">
+         <string>Add book</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="change_visitor">
+        <property name="text">
+         <string>Change visitor</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="add_remove_date">
+        <property name="text">
+         <string>Return book</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="write_book_on_visitor">
+        <property name="text">
+         <string>Write book</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
