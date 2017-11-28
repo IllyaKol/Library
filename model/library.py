@@ -13,7 +13,7 @@ class Library(object):
     def __init__(self):
         super(Library, self).__init__()
 
-        self.db = pymysql.connect("localhost", "root", "Hero2of1war", "library_system")
+        self.db = pymysql.connect("localhost", "root", "***********", "library_system")
         self.session = Session(bind=engine)
 
         self.number_of_library = ''  # library_number
